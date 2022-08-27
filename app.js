@@ -21,6 +21,6 @@ app.post("/:data", (req, res) => {
   } else res.status(200).send({ message: "Data Submitted Successfully" });
 });
 
-app.listen(3000, () => {
-  console.log("Listening on port 3000");
+app.listen(3030, () => {
+  console.log("Listening on port 3030");
 });
